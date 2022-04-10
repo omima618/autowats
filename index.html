@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Autowats</title>
+    <!-- metropolis font family -->
+    <link rel="stylesheet" media="screen" href="https://fontlibrary.org//face/metropolis" type="text/css" />
+    <!-- main css file -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- bootstrap icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <!-- main script file -->
+    <script defer src="script/main.js"></script>
+</head>
+
+<body>
+    <section class="intro">
+        <div class="img-layer">
+            <img src="images/layer.png" alt="">
+        </div>
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark py-0">
+            <div class="container py-2">
+                <!-- logo & languages -->
+                <div class="logo-container pe-4 d-flex justify-content-between align-items-center">
+                    <a href="index.html" class="navbar-brand nav-logo">
+                        <img src="images/light-logo.png" alt="logo">
+                    </a>
+                    <!-- languages dropdown -->
+                    <div class="dropdown">
+                        <a class="dropdown-toggle text-white" href="#" role="button" id="dropdownMenuLink"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            Turkish
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <li><a class="dropdown-item" href="#">Turkish</a></li>
+                            <li><a class="dropdown-item" href="#">Arabic</a></li>
+                            <li><a class="dropdown-item" href="#">English</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#nav-list">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <!-- links -->
+                <div class="collapse navbar-collapse links-list py-4 py-lg-0" id="nav-list">
+                    <div class="d-lg-flex justify-content-between">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active ms-lg-4 me-2"><a href="#services"
+                                    class="nav-link text-white">Services</a></li>
+                            <li class="nav-item ms-lg-4"><a href="#about" class="nav-link text-white">About</a></li>
+                            <li class="nav-item ms-lg-4"><a href="#pricing" class="nav-link text-white">Pricing</a></li>
+                        </ul>
+                        <div class="btns">
+                            <button class="app-btn button--light me-2">Login</button>
+                            <button class="app-btn button--blue">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- end navbar -->
+        <!-- intro text  -->
+        <div class="intro-text">
+            <h1>
+                Group <span class="colored-text">What’sApp</span> messaging service
+            </h1>
+            <p class="p-3">
+                Autowats is a sending tool for WhatsApp. It works as a WhatsApp Marketing
+                Tool to send notifications/messages on WhatsApp. You can send personalized
+                messages, attachments to users on WhatsApp.
+            </p>
+            <div class="btns text-lg-center">
+                <button class="app-btn button--blue me-2">Get Started</button>
+                <button class="app-btn button--light">Register now</button>
+            </div>
+        </div>
+        <!-- end intro text -->
+    </section>
+    <!-- services section -->
+    <section class="services py-5">
+        <div class="mob overflow-hidden d-none d-xl-block">
+            <img src="images/services/mobile.png" alt="mobile-img" class="mobile-img">
+            <img src="images/services/dark-logo.png" alt="logo" class="dark-logo">
+        </div>
+        <div class="container">
+            <div class="row justify-content-between">
+                <div class="col-12 col-lg-5 col-xl-4 column">
+                    <div class="row custom-margin">
+                        <div class="col-9 pe-3 content general-text">
+                            <h3 class="text-end fw-bold">
+                                Lorem Ipsum
+                            </h3>
+                            <p>
+                                Lorem ipsum
+                                Lorem ipsum dolor sit amet, consect
+                                etur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore Lorem
+                                ipsum dolor
+                            </p>
+                        </div>
+                        <div class="serv-icon col-3 text-center">
+                            <img src="images/services/service1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="row mb-4 mb-lg-0">
+                        <div class="col-9 pe-3 content general-text">
+                            <h3 class="text-end fw-bold">
+                                Lorem Ipsum
+                            </h3>
+                            <p>
+                                Lorem ipsum
+                                Lorem ipsum dolor sit amet, consect
+                                etur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore Lorem
+                                ipsum dolor
+                            </p>
+                        </div>
+                        <div class="serv-icon col-3 text-center">
+                            <img src="images/services/service3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-5 col-xl-4 column">
+                    <div class="row custom-margin flex-row-reverse flex-lg-row">
+                        <div class="serv-icon col-3 text-center">
+                            <img src="images/services/service2.png" alt="">
+                        </div>
+                        <div class="col-9 ps-3 content general-text">
+                            <h3 class="text-end text-lg-start fw-bold">
+                                Lorem Ipsum
+                            </h3>
+                            <p>
+                                Lorem ipsum
+                                Lorem ipsum dolor sit amet, consect
+                                etur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore Lorem
+                                ipsum dolor
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row mb-4 mb-lg-0 flex-row-reverse flex-lg-row">
+                        <div class="serv-icon col-3 text-center">
+                            <img src="images/services/service4.png" alt="">
+                        </div>
+                        <div class="col-9 ps-3 content general-text">
+                            <h3 class="text-end text-lg-start fw-bold">
+                                Lorem Ipsum
+                            </h3>
+                            <p>
+                                Lorem ipsum
+                                Lorem ipsum dolor sit amet, consect
+                                etur adipiscing elit, sed do eiusmod
+                                tempor incididunt ut labore Lorem
+                                ipsum dolor
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end services section -->
+    <section class="brands p-5">
+        <div class="container">
+            <div class="row justify-content-between brands-row">
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-5 mb-lg-0">
+                    <img src="images/brands/brand1.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-5 mb-lg-0">
+                    <img src="images/brands/brand2.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-5 mb-md-0">
+                    <img src="images/brands/brand3.png" alt="">
+                </div>
+                <div class="col-12 col-md-6 col-lg-3 d-flex justify-content-center align-items-center mb-5 mb-md-0">
+                    <img src="images/brands/brand4.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end brands section -->
+    <section class="about pt-5 pb-3">
+        <div class="container">
+            <div class="text-center mb-4">
+                <h2 class="under-line pb-2 mb-5">
+                    About the Service
+                </h2>
+                <p class="desc-text mx-auto">
+                    Lorem ipsum
+                    Lorem ipsum dolor sit amet, consect
+                    etur adipiscing elit, sed do eiusmod
+                    tempor incididunt ut labore Lorem
+                    ipsum dolor sit amet, consectetur
+                    adipiscing elit, sed do eiusmod.
+                </p>
+            </div>
+            <div class="row justify-content-around py-5">
+                <div class="col-lg-6 about-det mb-4 mb-lg-0">
+                    <div class="text-general">
+                        <h3 class="mb-4">
+                            take a look about our service
+                        </h3>
+                        <p class="mb-4 pe-xl-5 pe-lg-4">
+                            Lorem ipsum Lorem ipsum dolor sit amet, consect
+                            etur adipiscing elit, sed do eiusmod
+                            tempor incididunt ut labore Lorem
+                            ipsum dolor sit amet, consectetur
+                            adipiscing elit, sed do eiusmod.
+                        </p>
+                    </div>
+                    <ul class="p-0">
+                        <li class="fw-bold">
+                            <p>
+                                <i class="bi bi-check-lg me-2"></i>
+                                Lorem Ipsum Autowats is a sending
+                            </p>
+                        </li>
+                        <li class="fw-bold">
+                            <p>
+                                <i class="bi bi-check-lg me-2"></i>
+                                Lorem Ipsum Autowats is a sending
+                            </p>
+                        </li>
+                        <li class="fw-bold">
+                            <p>
+                                <i class="bi bi-check-lg me-2"></i>
+                                Lorem Ipsum Autowats is a sending
+                            </p>
+                        </li>
+                        <li class="fw-bold">
+                            <p>
+                                <i class="bi bi-check-lg me-2"></i>
+                                Lorem Ipsum Autowats is a sending
+                            </p>
+                        </li>
+                        <li class="fw-bold">
+                            <p>
+                                <i class="bi bi-check-lg me-2"></i>
+                                Lorem Ipsum Autowats is a sending
+                            </p>
+                        </li>
+                        <li class="fw-bold">
+                            <p>
+                                <i class="bi bi-check-lg me-2"></i>
+                                Lorem Ipsum Autowats is a sending
+                            </p>
+                        </li>
+                    </ul>
+                    <button class="app-btn button--blue">Register Now</button>
+                </div>
+                <div class="col-lg-6 text-center about-img">
+                    <img src="images/about/about.png" alt="about-img">
+                    <img src="images/about/youtube.png" alt="video" class="video-icon">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about section -->
+    <section class="pricing py-5">
+        <div class="container">
+            <h2 class="under-line pb-2 mb-5">Pricing</h2>
+            <!-- cards -->
+            <div class="row">
+                <!-- card 1 -->
+                <div class="price-card col-md-6 col-xl-4 mb-4 mb-xl-0 text-center">
+                    <div class="card pb-5">
+                        <div class="card-body p-0">
+                            <h3 class="p-3 mb-0">Basic</h3>
+                            <div class="price p-3">
+                                <img src="images/pricing/pricing-1.png" alt="pricing">
+                                <div class="mt-3">
+                                    <strong>$99</strong>
+                                    <span>per month</span>
+                                </div>
+                            </div>
+                            <ul class="px-3 py-5">
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                            </ul>
+                            <button class="app-btn button--light">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 2 -->
+                <div class="price-card col-md-6 col-xl-4 mb-4 mb-xl-0 text-center">
+                    <div class="card pb-5">
+                        <div class="card-body p-0">
+                            <h3 class="p-3 mb-0">Standard</h3>
+                            <div class="price p-3">
+                                <img src="images/pricing/pricing-2.png" alt="pricing">
+                                <div class="mt-3">
+                                    <strong class="colored-text">$550</strong>
+                                    <span>per 6 months</span>
+                                </div>
+                            </div>
+                            <ul class="px-2 py-5">
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                            </ul>
+                            <button class="app-btn button--blue">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+                <!-- card 3 -->
+                <div class="price-card col-md-6 col-xl-4 text-center">
+                    <div class="card pb-5">
+                        <div class="card-body p-0">
+                            <h3 class="p-3 mb-0">Bussiness</h3>
+                            <div class="price p-3">
+                                <img src="images/pricing/pricing-3.png" alt="pricing">
+                                <div class="mt-3">
+                                    <strong>$999</strong>
+                                    <span>per year</span>
+                                </div>
+                            </div>
+                            <ul class="px-3 py-5">
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                                <li>
+                                    <p>
+                                        <i class="bi bi-check-lg me-2"></i>
+                                        Lorem Ipsum Autowats is a sending
+                                    </p>
+                                </li>
+                            </ul>
+                            <button class="app-btn button--light">Register Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end pricing section -->
+    <section class="testimonials py-5 overflow-hidden">
+        <div class="container">
+            <h2 class="under-line pb-2 mb-5">Testimonials</h2>
+            <p class="text-center mb-5">Read hear What our clients around the world say about us and our service.</p>
+            <div class="map-img mb-5">
+                <img src="images/testimonials/map.png" alt="map">
+                <!-- client 1 -->
+                <div class="client-img client-one">
+                    <img src="images/testimonials/client1.png" alt="client">
+                    <div class="review hidden">
+                        <h4 class="fw-bold text-center">Adam Shady</h4>
+                        <p>This service helped me with <br> my bussiness.</p>
+                        <div class="rate text-center">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- client 2 -->
+                <div class="client-img client-two">
+                    <img src="images/testimonials/client2.png" alt="client">
+                    <div class="review hidden">
+                        <h4 class="fw-bold text-center">Adam Shady</h4>
+                        <p>This service helped me with <br> my bussiness.</p>
+                        <div class="rate text-center">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- client 3 -->
+                <div class="client-img client-three">
+                    <img src="images/testimonials/client3.png" alt="client">
+                    <div class="review hidden">
+                        <h4 class="fw-bold text-center">Adam Shady</h4>
+                        <p>This service helped me with <br> my bussiness.</p>
+                        <div class="rate text-center">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- client 4 -->
+                <div class="client-img client-four">
+                    <img src="images/testimonials/client4.png" alt="client">
+                    <div class="review hidden">
+                        <h4 class="fw-bold text-center">Adam Shady</h4>
+                        <p>This service helped me with <br> my bussiness.</p>
+                        <div class="rate text-center">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- client 5 -->
+                <div class="client-img client-five">
+                    <img src="images/testimonials/client5.png" alt="client">
+                    <div class="review hidden">
+                        <h4 class="fw-bold text-center">Adam Shady</h4>
+                        <p>This service helped me with <br> my bussiness.</p>
+                        <div class="rate text-center">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+                <!-- client 6 -->
+                <div class="client-img client-six">
+                    <img src="images/testimonials/client6.png" alt="client">
+                    <div class="review hidden">
+                        <h4 class="fw-bold text-center">Adam Shady</h4>
+                        <p>This service helped me with <br> my bussiness.</p>
+                        <div class="rate text-center">
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                            <i class="bi bi-star-fill"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
