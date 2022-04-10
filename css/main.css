@@ -290,6 +290,9 @@ nav {
     color: white;
     border-radius: 10px 10px 0 0;
 }
+.pricing p{
+    font-size: 18px;
+} 
 .pricing .price-card:first-child h3 {
     background-color: var(--extra1-color);
 }
